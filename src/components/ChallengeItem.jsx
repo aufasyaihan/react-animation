@@ -34,6 +34,7 @@ export default function ChallengeItem({
       initial="hidden"
       animate="visible"
       exit="hidden"
+      transition={{ duration: 0.3, type: "spring" }}
     >
       <article className="challenge-item">
         <header>
